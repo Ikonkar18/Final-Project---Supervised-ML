@@ -3,10 +3,13 @@ Real Estate Sales 2001-2020
 Class: Supervised Machine Learning and Learning Theory
 
 Team Members:
-Ikonkar Kaur Khalsa and 
+
+Ikonkar Kaur Khalsa
+
 Matthew Gregorio
 
 Project Description:
+
 This report presents a comprehensive analysis aimed at developing accurate and interpretable machine learning models for predicting house sale amounts and classifying property affordability. Utilizing an extensive dataset from Kaggle, encompassing over a million real estate transactions across two decades, the study evaluates both regression and classification models to identify the most effective predictive approach.
 
 The methodology involves preprocessing, exploratory data analysis, and training various algorithms, including:
@@ -21,31 +24,40 @@ Installation:
 
 - This project is developed using Google Colab and can also be run on other platforms such as Visual Studio Code. The following libraries and frameworks need to be imported:
   
-import pandas as pd
 from sklearn.linear_model import LinearRegression
-import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_squared_error, r2_score
-import matplotlib.pyplot as plt
-%matplotlib inline
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.preprocessing import LabelEncoder
-from sklearn.linear.model import Ridge
+
+from sklearn.linear_model import Ridge
+
 from sklearn.linear.model import Lasso
+
 from sklearn.linear.model import LogisticRegression
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score, confusion_matrix
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.tree import plot_tree
-from sklearn.model_selection import cross_val_score
-from sklearn.metrics import confusion_matrix, classification_report
+
+import numpy as np
+
+from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
+
+from sklearn.metrics import mean_squared_error, r2_score, accuracy_score, precision_score, recall_score, f1_score, roc_auc_score, confusion_matrix, classification_report, roc_curve
+
+import matplotlib.pyplot as plt
+
+%matplotlib inline
+
+from sklearn.preprocessing import MinMaxScaler, LabelEncoder
+
+from sklearn.tree import DecisionTreeClassifier, plot_tree
+
 import seaborn as sns
-from sklearn.metrics import roc_curve, roc_auc_score
-from sklearn.model_selection import GridSearchCV
+
 import tensorflow as tf
+
 from tensorflow import keras
+
 from keras.models import Sequential
+
 from keras.layers import Dense
+
 from keras.optimizers import Adam
+
 from sklearn.naive_bayes import GaussianNB
 
 Usage:
