@@ -73,9 +73,13 @@ To use this project:
 -Run the cells in sequence to preprocess the data, train the models, and evaluate their performance.
 
 Features:
+
 -Preprocessing and exploratory data analysis of real estate transaction data.
+
 -Implementation of various machine learning algorithms for both regression and classification.
+
 -Comprehensive model evaluation and comparison.
+
 -Visualization of results and model interpretability.
 
 Technologies Used:
@@ -90,8 +94,10 @@ Contributing
 
 Contributions are welcome! If you have suggestions for new machine learning algorithms that could improve this project or any other enhancements, please fork the repository and create a pull request.
 
-Contact Information
+Contact Information:
+
 Ikonkar Kaur Khalsa: khalsa.i@northeastern.edu
+
 Matthew Gregorio: gregorio.m@northeastern.edu
 
 Acknowledgments:
