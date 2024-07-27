@@ -2,15 +2,9 @@ Real Estate Sales 2001-2020
 
 Class: Supervised Machine Learning and Learning Theory
 
-Team Members:
+Team Members: Ikonkar Kaur Khalsa and Matthew Gregorio
 
-Ikonkar Kaur Khalsa
-
-Matthew Gregorio
-
-Project Description:
-
-This report presents a comprehensive analysis aimed at developing accurate and interpretable machine learning models for predicting house sale amounts and classifying property affordability. Utilizing an extensive dataset from Kaggle, encompassing over a million real estate transactions across two decades, the study evaluates both regression and classification models to identify the most effective predictive approach.
+Project Description: This report presents a comprehensive analysis aimed at developing accurate and interpretable machine learning models for predicting house sale amounts and classifying property affordability. Utilizing an extensive dataset from Kaggle, encompassing over a million real estate transactions across two decades, the study evaluates both regression and classification models to identify the most effective predictive approach.
 
 The methodology involves preprocessing, exploratory data analysis, and training various algorithms, including:
 
@@ -20,9 +14,9 @@ The methodology involves preprocessing, exploratory data analysis, and training 
 
 The comparative analysis reveals that the Decision Tree model, specifically the second variant, outperformed others in terms of model evaluation scores and interpretability, providing significant insights into the impact of features such as Longitude on sale amounts. Regression models demonstrated inferior performance, indicating that classification approaches were more suitable for this dataset.
 
-Installation:
+Installation: This project is developed using Google Colab and can also be run on other platforms such as Visual Studio Code. 
 
-- This project is developed using Google Colab and can also be run on other platforms such as Visual Studio Code. The following libraries and frameworks need to be imported:
+The following libraries and frameworks need to be imported:
   
 from sklearn.linear_model import LinearRegression
 
@@ -59,6 +53,7 @@ from keras.layers import Dense
 from keras.optimizers import Adam
 
 from sklearn.naive_bayes import GaussianNB
+
 
 Usage:
 
